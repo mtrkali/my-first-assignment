@@ -152,3 +152,34 @@ button:hover{
   margin-bottom: 24px;
 }
 
+/* design of danate section */
+.donate-buttons{
+  font-size: 40px;
+  font-weight: bold;
+  max-width: 240px;
+  color:#0e0e0ec4;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  border: none;
+  padding: 20px;
+}
+
+.taka-card-items{
+  display: flex;
+  max-width: 1071px;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+#done-now{
+  font-size: 18px;
+  font-weight: 600;
+  padding: 17px 34px;
+}
+.input-field{
+  display: block;
+  height: 64px;
+  width: 1030px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
