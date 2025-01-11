@@ -1,0 +1,154 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body{
+  margin: 0px 160px;
+  background-color: #F1F1F3;
+}
+
+
+/* shared-styles */
+.primary-dark{
+  color: rgba(14,14,14,15)
+}
+.card-button{
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  border-radius: 8px;
+  padding: 11px 20px;
+  border:none;
+}
+.text-primary{
+  color:#0E0E0E;
+}
+.primary-bg{
+  background-color: #C6E4D6;
+}
+
+.text-primary{
+  color:#0E0E0E;
+}
+
+.btn-primary{
+  background-color: #006A50;
+  color:white;
+  padding: 17px 34px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+}
+button:hover{
+  background-color: #FD6E0A;
+}
+
+
+/* banner-style */
+.banner-greetings{
+  font-size: 24px;
+  font-weight: 500;
+  color:rgba(14, 14, 14, 0.671)
+}
+.banner-title{
+  font-size: 56px;
+  font-weight: bold;
+  color:#0E0E0E;
+}
+
+.banner-profile-pic{
+  width: 474px;
+  padding: 80px 59px 80px 0px;
+}
+.banner-content{
+  max-width: 622px;
+  padding: 40px 0px 40px 59px;
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  gap:64px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+/* card styles */
+.item-title{
+  font-size: 20px;
+  font-weight: bold;
+  color: #0E0E0E
+}
+
+.item-description{
+  font-size: 16px;
+  color: #0e0e0ea2
+}
+
+.card-item{
+  max-width: 410px;
+  padding: 32px;
+  border-radius: 16px;
+
+}
+.card-items{
+  display: flex;
+  gap: 24px;
+}
+/* FFC239 */
+/* 006A50 */
+.ci1{
+  background-color: #548ff541;
+}
+
+.ci2{
+  background-color: #006a508c
+}
+
+.ci3{
+  background-color: #ffc43941;
+}
+
+.vission{
+  margin-bottom: 20px;
+}
+.vission-description{
+  color:#0e0e0e31
+}
+
+/* quta styles */
+.quta-item{
+  background-color: #FFFFFF;
+  max-width: 1280px;
+  padding: 48px 24px;
+  margin-top: 20px;
+}
+
+.quta-description{
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+
+}
+
+.recent-image{
+  max-width: 408px;
+  border-radius: 24px;
+}
+
+.recent-card-content{
+  max-width: 744px;
+}
+
+.recent-card1{
+  display: flex;
+  background-color: #FFFFFF;
+  justify-content: space-between;
+  gap: 32px;
+  padding:56px 48px;
+  border-radius: 24px;
+  margin-bottom: 24px;
+}
+
