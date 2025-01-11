@@ -13,6 +13,9 @@ body{
 
 
 /* shared-styles */
+.dark-2{
+  color: rgba(0, 0, 0, 0.5);
+}
 .primary-dark{
   color: rgba(14,14,14,15)
 }
@@ -182,4 +185,31 @@ button:hover{
   text-align: center;
   margin-bottom: 20px;
   border-radius: 8px;
+}
+
+/* style - subscribe section */
+.input-field1{
+  width: 600px;
+  height: 20px;
+  display: flex;
+  border-radius: 8px 0px 0px 8px;
+  padding: 18px;
+  font-size: 16px;
+
+}
+.ib{
+  display: flex;
+  gap: 0px;
+}
+
+
+.subscribe-button{
+  border-radius:0px 8px 8px 0px ;
+}
+
+.subscriber{
+  max-width: 1280px;
+  background-color: #C6E4D6;
+  padding: 80px 265px;
+  border-radius: 5px;
 }
